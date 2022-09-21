@@ -14,6 +14,6 @@ int recAdd(int n){
 		return 1;
 	}
 	else{
-		return n+recFact(n-1);
+		return n+recAdd(n-1);
 	}
 }
