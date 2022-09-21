@@ -8,8 +8,7 @@ int main()
 	scanf("%d",&n);
 
     for(i=1;i<=n;i++)
-	r = recFibb(n);
-	printf("%d ",r);
+	printf("%d ",recFibb(i);
 }
 
 int recFibb(int n){
